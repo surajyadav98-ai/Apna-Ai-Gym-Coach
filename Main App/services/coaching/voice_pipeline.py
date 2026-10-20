@@ -84,7 +84,12 @@ class VoicePipeline:
 
         return voice, text
     
+# def autoplay_audio(audio_bytes):
+#     if not audio_bytes:
+#         st.warning("Audio generate nahi hua.")
+#         return
 
+#     st.audio(audio_bytes, format="audio/mp3")
 def autoplay_audio(audio_bytes):
     if not audio_bytes:
         return
